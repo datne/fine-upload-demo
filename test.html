@@ -84,6 +84,11 @@
                     notAvailablePath: 'C:\\Users\\liuliuliu\\Desktop\\Fineupload\\placeholders\\not_available-generic.png'
                 }
             },
+            callbacks:{
+                onCancel : function(id) {
+                    console.log(id);
+                }
+            },
             autoUpload: false,
             debug: true
         });
